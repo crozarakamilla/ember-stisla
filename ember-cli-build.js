@@ -37,9 +37,14 @@ module.exports = function(defaults) {
 
 
 
+
+
   app.import('node_modules/jquery.nicescroll/dist/jquery.nicescroll.min.js');
 
+
   app.import('vendor/stisla.js');
+
+
 
   app.import('node_modules/jquery-sparkline/jquery.sparkline.min.js');
   app.import('node_modules/owl.carousel/dist/owl.carousel.min.js');
@@ -52,10 +57,12 @@ module.exports = function(defaults) {
   app.import('node_modules/chocolat/dist/css/chocolat.css');
 
   app.import('vendor/scripts.js');
-  //app.import('vendor/page/index.js');
 
-  app.import('vendor/css/style.css');
-  app.import('vendor/css/components.css');
+
+  //app.import('vendor/css/style.css');
+  //app.import('vendor/css/components.css');
+
+  //app.import('public/assets/js/index.js');
 
 
 
