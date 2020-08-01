@@ -442,11 +442,11 @@ $(function() {
       $(target).collapse('toggle');
       $(target).on('shown.bs.collapse', function(e) {
         e.stopPropagation();
-        me.html('<i class="fas fa-minus"></i>');
+        me.html('<i class="fa fa-minus"></i>');
       });
       $(target).on('hidden.bs.collapse', function(e) {
         e.stopPropagation();
-        me.html('<i class="fas fa-plus"></i>');
+        me.html('<i class="fa fa-plus"></i>');
       });
       return false;
     });
@@ -608,8 +608,8 @@ $(function() {
   if(jQuery().timepicker && $(".timepicker").length) {
     $(".timepicker").timepicker({
       icons: {
-        up: 'fas fa-chevron-up',
-        down: 'fas fa-chevron-down'
+        up: 'fa fa-chevron-up',
+        down: 'fa fa-chevron-down'
       }
     });
   }
