@@ -7,16 +7,7 @@ module.exports = function(defaults) {
     'ember-bootstrap': {
       'bootstrapVersion': 4,
       'importBootstrapCSS': true
-    },
-    'fontawesome': {
-      'defaultPrefix': 'fas',
-      icons: {
-        'free-solid-svg-icons': 'all',
-      }
-
-    },
-
-
+    }
   });
 
   // Use `app.import` to add additional libraries to the generated
